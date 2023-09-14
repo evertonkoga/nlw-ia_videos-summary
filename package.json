@@ -1,0 +1,14 @@
+{
+  "name": "nlw-ia_videos-summary",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "web": "vite",
+    "web-build": "vite build",
+    "web-preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5"
+  }
+}
