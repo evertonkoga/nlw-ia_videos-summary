@@ -25,4 +25,13 @@ form.addEventListener('submit', async (event) => {
     const transcriptionResult = transcription.data.result;
     content.textContent = transcriptionResult;
     content.classList.remove("placeholder");
+
+    summary.textContent = "Realizando o resumo...";
+    
+    const summaryResult = await server.post("/summary", {
+        text: transcriptionResult
+    })
+
+    summary.textContent = summaryResult.data.result;
+    summary.classList.remove("placeholder");
 });

@@ -21,6 +21,11 @@
     margin-top: -5px;
 }
 
+#app #summaryId {
+    align-self: flex-start;
+    margin-top: 30px;
+}
+
 #app .placeholder {
     color: #7c7c8a;
     user-select: none;
