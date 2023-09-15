@@ -1,5 +1,6 @@
 <center>
   <p align="center">
+    <img src="https://github.com/evertonkoga/nlw-ia_videos-summary/assets/54872138/f788b8c4-7028-4b27-89a3-d570d35f4428" width=110px height="110" /> &nbsp;
     <img src="https://github.com/evertonkoga/nlw-ia_upload-ai_api/assets/54872138/5a3dc362-9a7c-4bf7-be47-46b053962e15" width=350px/>
   </p>  
   <h1 align="center">🎬 Aplicação: Gerador de Resumos para Vídeos</h1>
