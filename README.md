@@ -1,7 +1,8 @@
 <center>
   <p align="center">
-    <img src="https://github.com/evertonkoga/nlw-ia_videos-summary/assets/54872138/f788b8c4-7028-4b27-89a3-d570d35f4428" width=110px height="110" /> &nbsp;
-    <img src="https://github.com/evertonkoga/nlw-ia_upload-ai_api/assets/54872138/5a3dc362-9a7c-4bf7-be47-46b053962e15" width=350px/>
+    <img src="https://github.com/evertonkoga/nlw-ia_upload-ai_web/assets/54872138/b6746361-ee0c-4cbe-b369-7b3b672d07b1" width=110px height="110px" /> &nbsp;
+    <img src="https://github.com/evertonkoga/nlw-ia_upload-ai_web/assets/54872138/614f532a-3957-4a14-bc29-67546276330a" width=110px height="110px" /> &nbsp;
+    <img src="https://github.com/evertonkoga/nlw-ia_upload-ai_web/assets/54872138/3ff658d3-f972-4272-98a2-291fee5e6198" width=110px height="110px" />
   </p>  
   <h1 align="center">🎬 Aplicação: Gerador de Resumos para Vídeos</h1>
   <p align="justify">    
