@@ -3,10 +3,12 @@ import { server } from './server.js';
 const form = document.querySelector('#form');
 const input = document.querySelector('#url');
 const content = document.querySelector('#content');
+const summary = document.querySelector('#summary');
 
 form.addEventListener('submit', async (event) => {
     event.preventDefault();
     content.classList.add("placeholder");
+    summary.classList.add("placeholder");
 
     const videoURL = input.value;
 
@@ -20,13 +22,7 @@ form.addEventListener('submit', async (event) => {
     content.textContent = `Extraindo o texto do áudio...`;
     
     const transcription = await server.get(`/summary/${videoId}`);
-
-    content.textContent = 'Realizando resumo...';
-
-    const summary = await server.post("/summary", {
-        text: transcription.data.result,
-    })
-
-    content.textContent = summary.data.result;
+    const transcriptionResult = transcription.data.result;
+    content.textContent = transcriptionResult;
     content.classList.remove("placeholder");
 });
