@@ -1,8 +1,11 @@
 import ytdl from 'ytdl-core';
 import fs from 'fs';
 
+const filePath = "./template.mp4";
+const baseURL= 'https://www.youtube.com/shorts/';
+
 export const download = (videoId) => new Promise((resolve, reject) => {
-    const videoURL = `https://www.youtube.com/shorts/${videoId}`;
+    const videoURL = baseURL.concat(videoId);
     
     ytdl(videoURL, {
         quality: 'lowestaudio', 
@@ -21,5 +24,5 @@ export const download = (videoId) => new Promise((resolve, reject) => {
         console.log('Erro ao fazer o download do video:', error);
         reject();
     })
-    .pipe(fs.createWriteStream('./tmp/audio.mp4'))
+    .pipe(fs.createWriteStream(filePath))
 })
