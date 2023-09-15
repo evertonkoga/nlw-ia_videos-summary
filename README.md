@@ -6,7 +6,7 @@
   <h1 align="center">🎬 Aplicação: Gerador de Resumos para Vídeos</h1>
   <p align="center">    
     A aplicação recebe uma URL de um shorts do YouTube, extrai o conteúdo em áudio do vídeo e, em seguida, gera um resumo.<br/>
-    Para construir o front-end e back-end, foi utilizado Javascript, HTML e CSS puro, com o suporte das libs <b>ffmpeg, node-wav</b> e <b>ytdl-core</b> para a manipulação e conversão do vídeo em áudio.
+    Para construir o front-end e back-end(NodeJS), foi utilizado Javascript, HTML e CSS puro, com o suporte das libs <b>ffmpeg, node-wav</b> e <b>ytdl-core</b> para a manipulação e conversão do vídeo em áudio.
     Complementando essa funcionalidade, foi incluido a lib <b>@xenova/transformers</b>, que utiliza modelos de IA para extrair o texto do conteúdo e gerar o resumo.
     É importante mencionar que esses modelos estão hospedados na plataforma <a href="https://huggingface.co/models">Hugging Face</a>.
   </p>
